@@ -1,0 +1,50 @@
+* {
+    border: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    background-color: rgb(244, 244, 244);
+}
+
+img {
+    border-radius: 50%;
+    height: 2rem !important;
+}
+
+a {
+    color: rgb(58, 52, 52);
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav>a {
+    margin: 20px;
+}
+
+.contenedorRegistro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.contenedorRegistro>i {
+    margin-right: 20px;
+}
+
+@media (max-width:750px) {
+    nav>a {
+        margin: 10px;
+    }
+}
+
+@media (max-width:670px) {
+    nav>a {
+        margin: 1px;
+    }
+}
